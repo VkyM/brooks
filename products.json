@@ -1,0 +1,47 @@
+[
+  {
+    "id": "optibro",
+    "image": "assets/img1.jpeg",
+    "name": "OPTIBRO",
+    "subtitle": "CAPSULES",
+    "title": "Neurotrophic formulation",
+    "description": "The supplied reference describes Optibro as a combination of Inosine Monophosphate, Soy Sprouts Extract containing Decarboxylated L-Arginine, Agmatine and L-Carnosine.",
+    "ingredients": [
+      "Inosine Monophosphate",
+      "Soy Sprouts Extract",
+      "Agmatine",
+      "L-Carnosine"
+    ],
+    "note": "For professional and consumer guidance, refer to the product pack and qualified healthcare professionals. This website does not replace medical advice."
+  },
+  {
+    "id": "product2",
+    "image": "assets/img2.jpg",
+    "name": "PRODUCT 2",
+    "subtitle": "CAPSULES",
+    "title": "Advanced formulation",
+    "description": "Product description can be maintained here in the JSON file.",
+    "ingredients": [
+      "Ingredient One",
+      "Ingredient Two",
+      "Ingredient Three",
+      "Ingredient Four"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals for appropriate guidance."
+  },
+  {
+    "id": "product3",
+    "image": "assets/img3.jpg",
+    "name": "PRODUCT 3",
+    "subtitle": "TABLETS",
+    "title": "Specialized formulation",
+    "description": "Product information for this product.",
+    "ingredients": [
+      "Ingredient A",
+      "Ingredient B",
+      "Ingredient C",
+      "Ingredient D"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  }
+]

@@ -112,36 +112,75 @@
           <p>A formulation featuring ingredients presented in the supplied product literature.</p>
         </div>
 
+        
         <div class="product-layout">
-          <div class="product-visual reveal">
-            <div class="product-orbit"></div>
-            <div class="product-label">OPTIBRO</div>
-            <div class="product-subtitle">CAPSULES</div>
-            <div class="veg-badge">100%<br><small>VEG</small></div>
-          </div>
 
-          <div class="product-content reveal">
-            <h3>Neurotrophic formulation</h3>
-            <p>
-              The supplied reference describes Optibro as a combination of
-              Inosine Monophosphate, Soy Sprouts Extract containing
-              Decarboxylated L-Arginine, Agmatine and L-Carnosine.
-            </p>
+  <div class="product-visual reveal" id="productVisual">
+    <div class="product-orbit"></div>
 
-            <div class="ingredient-grid">
-              <article><h4>Inosine Monophosphate</h4><p>Presented in the product composition.</p></article>
-              <article><h4>Soy Sprouts Extract</h4><p>Containing decarboxylated L-arginine.</p></article>
-              <article><h4>Agmatine</h4><p>Listed among the highlighted ingredients.</p></article>
-              <article><h4>L-Carnosine</h4><p>Listed as part of the formulation.</p></article>
-            </div>
+    <img
+      id="productImage"
+      src="assets/img2.jpg"
+      alt="OPTIBRO"
+      class="main-product-image"
+    >
 
-            <div class="note">
-              <strong>Product information</strong>
-              <p>For professional and consumer guidance, refer to the product pack and qualified healthcare professionals. This website does not replace medical advice.</p>
-            </div>
-          </div>
-        </div>
+    <div class="product-label" id="productName">OPTIBRO</div>
+    <div class="product-subtitle" id="productSubtitle">CAPSULES</div>
 
+    <div class="view-badge" id="viewProducts">
+      View<br>
+      <small>Products</small>
+    </div>
+  </div>
+
+  <div class="product-content reveal">
+
+    <h3 id="productTitle">Neurotrophic formulation</h3>
+
+    <p id="productDescription">
+      The supplied reference describes Optibro as a combination of
+      Inosine Monophosphate, Soy Sprouts Extract containing
+      Decarboxylated L-Arginine, Agmatine and L-Carnosine.
+    </p>
+
+    <div class="ingredient-grid" id="ingredientGrid">
+      <!-- JSON ingredients inserted here -->
+    </div>
+
+    <div class="note">
+      <strong>Product information</strong>
+      <p id="productNote">
+        For professional and consumer guidance, refer to the product pack
+        and qualified healthcare professionals.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- PRODUCT SELECTOR -->
+
+<div class="product-overlay" id="productOverlay">
+
+  <div class="product-picker">
+
+    <button class="product-close" id="productClose">
+      &times;
+    </button>
+
+    <h3>Select Product</h3>
+
+    <div class="product-image-grid" id="productImageGrid">
+      <!-- Images generated from JSON -->
+    </div>
+
+  </div>
+
+</div>
+
+        
         <div class="indications reveal">
           <div>
             <span class="eyebrow">REFERENCE INFORMATION</span>
