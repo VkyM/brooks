@@ -6,6 +6,7 @@
   <meta name="description" content="Brooks Pharmaceuticals Pvt Ltd - Neurotrophic and optical neuro-support product information.">
   <title>Brooks Pharmaceuticals Pvt Ltd | Optibro</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -129,7 +130,7 @@
     <div class="product-subtitle" id="productSubtitle">CAPSULES</div>
 
     <div class="view-badge" id="viewProducts">
-      View<br>
+      More<br>
       <small>Products</small>
     </div>
   </div>
@@ -227,21 +228,79 @@
         </div>
       </div>
     </section>
+<section id="contact" class="section contact-section">
+  <div class="container contact-box reveal">
+    <div>
+      <span class="eyebrow">GET IN TOUCH</span>
 
-    <section id="contact" class="section contact-section">
-      <div class="container contact-box reveal">
-        <div>
-          <span class="eyebrow">GET IN TOUCH</span>
-          <h2>Connect with Brooks Pharmaceuticals</h2>
-          <p>Replace the sample contact details below with your official company information before publishing.</p>
-        </div>
-        <div class="contact-details">
-          <a href="mailto:info@example.com">✉ info@example.com</a>
-          <a href="tel:+918056262109">☎ +91 8056262109</a>
-          <span>⌖ India</span>
-        </div>
+
+      <div class="social-icons" style="display: flex; gap: 30px; align-items: center;">
+  
+  <!-- Instagram -->
+  <a href="https://instagram.com/vigneshm" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-instagram"></i>
+  </a>
+  
+  <!-- YouTube -->
+  <a href="https://youtube.com/tharavu" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-youtube"></i>
+  </a>
+  
+  <!-- Twitter / X -->
+  <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-twitter"></i>
+  </a>
+</div>
+
+      <h2>Connect with Brooks Pharmaceuticals</h2>
+      <p>Replace the sample contact details below with your official company information before publishing.</p>
+    
+    
+    
+    
+    </div>
+
+    <!-- Contact Info Details
+    <div class="contact-details" style="margin-bottom: 24px;">
+      <a href="mailto:info@example.com">✉ info@example.com</a>
+      <a href="tel:+918056262109">☎ +91 8056262109</a>
+      <span>⌖ India</span>
+    </div>
+  -->
+    <!-- Contact Form -->
+    <form id="contactForm" onsubmit="sendMail(event)" style="display: flex; flex-direction: column; gap: 15px; max-width: 500px;">
+      <div style="display: flex; flex-direction: column; gap: 5px;">
+        <label for="userName" style="font-weight: 600;">Your Name</label>
+        <input 
+          type="text" 
+          id="userName" 
+          placeholder="Enter your name" 
+          required 
+          style="padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem;"
+        />
       </div>
-    </section>
+
+      <div style="display: flex; flex-direction: column; gap: 5px;">
+        <label for="userMessage" style="font-weight: 600;">Your Message</label>
+        <textarea 
+          id="userMessage" 
+          rows="5" 
+          placeholder="Type your message here..." 
+          required 
+          style="padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; resize: vertical;"
+        ></textarea>
+      </div>
+
+      <button 
+        type="submit" 
+        style="padding: 12px 20px; background-color: #007bff; color: #ffffff; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; font-weight: bold; width: fit-content;"
+      >
+        ✉ Send via Mail
+      </button>
+    </form>
+  </div>
+</section>
+    
   </main>
 
   <footer>
@@ -250,6 +309,11 @@
       <span>Optibro • Product Information</span>
     </div>
   </footer>
+
+      <!-- FLOATING WHATSAPP BUTTON (WITH MESSAGE AND WEBSITE LINK) -->
+    <a href="https://wa.me/919444390688?text=Can%20i%20get%20more%20info%3F%20Website%3A%20https%3A%2F%2Fbrookspharma.in" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    
 
   <script src="script.js"></script>
 </body>

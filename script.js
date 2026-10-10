@@ -266,3 +266,20 @@ overlay.addEventListener(
 /* Load products */
 
 loadProducts();
+
+/* JavaScript to handle email redirection */
+
+function sendMail(event) {
+    event.preventDefault();
+
+    const companyEmail = "vicky.nimdasys@gmail.com";
+    const name = document.getElementById("userName").value;
+    const message = document.getElementById("userMessage").value;
+
+    // Define default subject and body
+    const subject = encodeURIComponent(`Inquiry from ${name}`);
+    const body = encodeURIComponent(`Hello Brooks Pharmaceuticals team,\n\nName: ${name}\n\nMessage:\n${message}`);
+
+    // Redirect to default email app
+    window.location.href = `mailto:${companyEmail}?subject=${subject}&body=${body}`;
+  }
