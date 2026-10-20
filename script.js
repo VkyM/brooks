@@ -58,10 +58,10 @@ let currentProduct = 0;
 let selectedCategory = "All";
 const productCategories = [
   "All",
-  "Capsules",
-  "Tablets",
-  "Tears",
-  "Antibiotics"
+  "Tears substitute",
+  "ANTIBIOTICS",
+  "ANTIBIOTICS with steroids and NSAIDS",
+  "Antioxidants"
 ];
 
 const overlay = document.getElementById("productOverlay");
