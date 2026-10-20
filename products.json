@@ -6,12 +6,12 @@
     "name": "Tears substitute",
     "subtitle": "Eye Drops",
     "title": "Tears substitute",
-    "description": "The supplied reference describes Optibro as a combination of Inosine Monophosphate, Soy Sprouts Extract containing Decarboxylated L-Arginine, Agmatine and L-Carnosine.",
+    "description": "This category comprises artificial tear formulations engineered to replicate natural tear fluid, restore moisture to the ocular surface, and stabilize the tear film. These drops provide soothing relief from dry eye syndrome, burning, fatigue, and irritation caused by environmental stressors, contact lens wear, or digital screen exposure.",
     "ingredients": [
-      "Inosine Monophosphate",
-      "Soy Sprouts Extract",
-      "Agmatine",
-      "L-Carnosine"
+      "Carboxymethylcellulose Sodium",
+      "Sodium Hyaluronate (0.1%",
+      "Polyethylene Glycol",
+      "Propylene Glycol"
     ],
     "note": "For professional and consumer guidance, refer to the product pack and qualified healthcare professionals. This website does not replace medical advice."
   },
@@ -22,13 +22,13 @@
     "image": "assets/antibiotics.jpeg",
     "name": "ANTIBIOTICS",
     "subtitle": "Drops",
-    "title": "Advanced formulation",
-    "description": "Product description can be maintained here in the JSON file.",
+    "title": "ANTIBIOTICS",
+    "description": "MOXIBRO Eye Drops is a single-active, prescription-grade antibiotic ophthalmic solution. It belongs to the 4th-generation fluoroquinolone class and is used to treat bacterial eye infections such as bacterial conjunctivitis (pink eye), corneal ulcers, and post-surgical ocular bacterial infections.",
     "ingredients": [
-      "Ingredient One",
-      "Ingredient Two",
-      "Ingredient Three",
-      "Ingredient Four"
+      "Moxifloxacin",
+      "Dexamethasone",
+      "Loteprednol Etabonate",
+      "Nepafenac / Ketorolac"
     ],
     "note": "Refer to the product pack and qualified healthcare professionals for appropriate guidance."
   },
@@ -37,15 +37,15 @@
     "id": "ANTIBIOTICS with steroids and NSAIDS",
     "category": "ANTIBIOTICS with steroids and NSAIDS",
     "image": "assets/steroids_nsaids.png",
-    "name": "ANTIBIOTICS with steroids and NSAIDS",
+    "name": "Steroids and NSAIDS",
     "subtitle": "Drops",
-    "title": "Specialized formulation",
-    "description": "Product information for this product.",
+    "title": "ANTIBIOTICS with steroids and NSAIDS",
+    "description": "This category encompasses therapeutic, prescription-grade ophthalmic formulations—including broad-spectrum antimicrobial agents, non-steroidal anti-inflammatory drugs (NSAIDs), and corticosteroids. These drops are used to treat or prevent bacterial ocular infections and manage postoperative pain, swelling, and tissue inflammation.",
     "ingredients": [
-      "Ingredient A",
-      "Ingredient B",
-      "Ingredient C",
-      "Ingredient D"
+      "Moxifloxacin",
+      "Dexamethasone",
+      "Loteprednol Etabonate",
+      "Nepafenac / Ketorolac"
     ],
     "note": "Refer to the product pack and qualified healthcare professionals."
   },
@@ -57,12 +57,12 @@
     "name": "Antioxidants",
     "subtitle": "Tablets",
     "title": "Specialized formulation",
-    "description": "Product information for this product.",
+    "description": "This category comprises oral nutraceutical supplements formulated with potent antioxidants, carotenoids, essential fatty acids, amino acid derivatives, and essential vitamins and minerals. These products are designed to support cellular health, neutralize free radicals, protect ocular (eye) health, boost immunity, and maintain general metabolic well-being.",
     "ingredients": [
-      "Ingredient A",
-      "Ingredient B",
-      "Ingredient C",
-      "Ingredient D"
+      "Lutein",
+      "Zeaxanthin",
+      "Omega-3 Fatty Acids",
+      "Vitamin C"
     ],
     "note": "Refer to the product pack and qualified healthcare professionals."
   }
