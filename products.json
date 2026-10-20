@@ -35,7 +35,7 @@
   
   {
     "id": "ANTIBIOTICS with steroids and NSAIDS",
-    "category": "teroids and NSAIDS",
+    "category": "ANTIBIOTICS with steroids and NSAIDS",
     "image": "assets/steroids_nsaids.png",
     "name": "ANTIBIOTICS with steroids and NSAIDS",
     "subtitle": "Drops",
@@ -54,7 +54,7 @@
     "id": "Antioxidants",
     "category": "Antioxidants",
     "image": "assets/antioxidants.jpeg",
-    "name": "",
+    "name": "Antioxidants",
     "subtitle": "Tablets",
     "title": "Specialized formulation",
     "description": "Product information for this product.",
