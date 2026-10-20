@@ -1,11 +1,11 @@
 [
   {
-    "id": "optibro",
-    "category": "Capsules",
-    "image": "assets/img1.jpeg",
-    "name": "OPTIBRO",
-    "subtitle": "CAPSULES",
-    "title": "Neurotrophic formulation",
+    "id": "Tears",
+    "category": "Tears substitute",
+    "image": "assets/tears.png",
+    "name": "Tears substitute",
+    "subtitle": "Eye Drops",
+    "title": "Tears substitute",
     "description": "The supplied reference describes Optibro as a combination of Inosine Monophosphate, Soy Sprouts Extract containing Decarboxylated L-Arginine, Agmatine and L-Carnosine.",
     "ingredients": [
       "Inosine Monophosphate",
@@ -15,12 +15,13 @@
     ],
     "note": "For professional and consumer guidance, refer to the product pack and qualified healthcare professionals. This website does not replace medical advice."
   },
+
   {
-    "id": "product2",
-    "category": "Capsules",
-    "image": "assets/img2.jpg",
-    "name": "PRODUCT 2",
-    "subtitle": "CAPSULES",
+    "id": "ANTIBIOTICS",
+    "category": "ANTIBIOTICS",
+    "image": "assets/antibiotics.jpeg",
+    "name": "ANTIBIOTICS",
+    "subtitle": "Drops",
     "title": "Advanced formulation",
     "description": "Product description can be maintained here in the JSON file.",
     "ingredients": [
@@ -31,12 +32,30 @@
     ],
     "note": "Refer to the product pack and qualified healthcare professionals for appropriate guidance."
   },
+  
   {
-    "id": "product3",
-    "category": "Tablets",
-    "image": "assets/img3.jpg",
-    "name": "PRODUCT 3",
-    "subtitle": "TABLETS",
+    "id": "ANTIBIOTICS with steroids and NSAIDS",
+    "category": "steroids and NSAIDS",
+    "image": "assets/steroids_nsaids.png",
+    "name": "ANTIBIOTICS with steroids and NSAIDS",
+    "subtitle": "Drops",
+    "title": "Specialized formulation",
+    "description": "Product information for this product.",
+    "ingredients": [
+      "Ingredient A",
+      "Ingredient B",
+      "Ingredient C",
+      "Ingredient D"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  },
+
+ {
+    "id": "Antioxidants",
+    "category": "Antioxidants",
+    "image": "assets/antioxidants.jpeg",
+    "name": "",
+    "subtitle": "Tablets",
     "title": "Specialized formulation",
     "description": "Product information for this product.",
     "ingredients": [
@@ -47,4 +66,5 @@
     ],
     "note": "Refer to the product pack and qualified healthcare professionals."
   }
+ 
 ]
