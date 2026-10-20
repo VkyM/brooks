@@ -55,6 +55,14 @@ setInterval(nextSlide, 4000);
 /* Products */
 let products = [];
 let currentProduct = 0;
+let selectedCategory = "All";
+const productCategories = [
+  "All",
+  "Capsules",
+  "Tablets",
+  "Tears",
+  "Antibiotics"
+];
 
 const overlay = document.getElementById("productOverlay");
 const viewProducts = document.getElementById("viewProducts");
@@ -62,6 +70,12 @@ const productClose = document.getElementById("productClose");
 
 const productImageGrid =
   document.getElementById("productImageGrid");
+
+const productCategoryFilters =
+  document.getElementById("productCategoryFilters");
+
+const productEmptyMessage =
+  document.getElementById("productEmptyMessage");
 
 const productImage =
   document.getElementById("productImage");
@@ -115,35 +129,58 @@ async function loadProducts() {
 
 function createProductSelector() {
 
+  productCategoryFilters.innerHTML = "";
+
+  productCategories.forEach(category => {
+
+    const button = document.createElement("button");
+
+    button.type = "button";
+    button.className = "product-category-filter";
+    button.textContent = category;
+    button.setAttribute("aria-pressed", category === selectedCategory);
+
+    if (category === selectedCategory) {
+      button.classList.add("active");
+    }
+
+    button.addEventListener("click", () => {
+      selectedCategory = category;
+      createProductSelector();
+    });
+
+    productCategoryFilters.appendChild(button);
+
+  });
+
   productImageGrid.innerHTML = "";
 
-  products.forEach((product, index) => {
+  const visibleProducts = products
+    .map((product, index) => ({ product, index }))
+    .filter(({ product }) =>
+      selectedCategory === "All" || product.category === selectedCategory
+    );
 
-    const card = document.createElement("div");
+  productEmptyMessage.hidden = visibleProducts.length > 0;
 
+  visibleProducts.forEach(({ product, index }) => {
+
+    const card = document.createElement("button");
+
+    card.type = "button";
     card.className = "product-option";
-
     card.innerHTML = `
-      <img
-        src="${product.image}"
-        alt="${product.name}"
-      >
-
-      <div class="product-option-name">
-        ${product.name}
-      </div>
+      <img src="${product.image}" alt="${product.name}">
+      <span class="product-option-name">${product.name}</span>
+      <span class="product-option-category">${product.category}</span>
     `;
 
     card.addEventListener("click", () => {
-
       showProduct(index);
-
       closeProductSelector();
-
     });
 
     productImageGrid.appendChild(card);
-
   });
 
 }

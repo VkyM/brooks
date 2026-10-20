@@ -1,6 +1,7 @@
 [
   {
     "id": "optibro",
+    "category": "Capsules",
     "image": "assets/img1.jpeg",
     "name": "OPTIBRO",
     "subtitle": "CAPSULES",
@@ -16,6 +17,7 @@
   },
   {
     "id": "product2",
+    "category": "Capsules",
     "image": "assets/img2.jpg",
     "name": "PRODUCT 2",
     "subtitle": "CAPSULES",
@@ -31,6 +33,7 @@
   },
   {
     "id": "product3",
+    "category": "Tablets",
     "image": "assets/img3.jpg",
     "name": "PRODUCT 3",
     "subtitle": "TABLETS",
