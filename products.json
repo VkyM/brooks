@@ -2,7 +2,7 @@
   {
     "id": "Tears",
     "category": "Tears substitute",
-    "image": "assets/tears.png",
+    "image": "assets/tears_1.png",
     "name": "Tears substitute",
     "subtitle": "Eye Drops",
     "title": "Tears substitute",
@@ -10,6 +10,57 @@
     "ingredients": [
       "Carboxymethylcellulose Sodium",
       "Sodium Hyaluronate (0.1%",
+      "Polyethylene Glycol",
+      "Propylene Glycol"
+    ],
+    "note": "For professional and consumer guidance, refer to the product pack and qualified healthcare professionals. This website does not replace medical advice."
+  },
+
+   {
+    "id": "Tears",
+    "category": "Tears substitute",
+    "image": "assets/tears_2.png",
+    "name": "Tears substitute",
+    "subtitle": "Eye Drops",
+    "title": "Tears substitute",
+    "description": "This category comprises artificial tear formulations engineered to replicate natural tear fluid, restore moisture to the ocular surface, and stabilize the tear film. These drops provide soothing relief from dry eye syndrome, burning, fatigue, and irritation caused by environmental stressors, contact lens wear, or digital screen exposure.",
+    "ingredients": [
+      "Carboxymethylcellulose Sodium",
+      "Sodium Hyaluronate (0.1%)",
+      "Polyethylene Glycol",
+      "Propylene Glycol"
+    ],
+    "note": "For professional and consumer guidance, refer to the product pack and qualified healthcare professionals. This website does not replace medical advice."
+  },
+
+   {
+    "id": "Tears",
+    "category": "Tears substitute",
+    "image": "assets/tears_3.png",
+    "name": "Tears substitute",
+    "subtitle": "Eye Drops",
+    "title": "Tears substitute",
+    "description": "This category comprises artificial tear formulations engineered to replicate natural tear fluid, restore moisture to the ocular surface, and stabilize the tear film. These drops provide soothing relief from dry eye syndrome, burning, fatigue, and irritation caused by environmental stressors, contact lens wear, or digital screen exposure.",
+    "ingredients": [
+      "Carboxymethylcellulose Sodium",
+      "Sodium Hyaluronate (0.1%",
+      "Polyethylene Glycol",
+      "Propylene Glycol"
+    ],
+    "note": "For professional and consumer guidance, refer to the product pack and qualified healthcare professionals. This website does not replace medical advice."
+  },
+
+   {
+    "id": "Tears",
+    "category": "Tears substitute",
+    "image": "assets/tears_4.png",
+    "name": "Tears substitute",
+    "subtitle": "Eye Drops",
+    "title": "Tears substitute",
+    "description": "This category comprises artificial tear formulations engineered to replicate natural tear fluid, restore moisture to the ocular surface, and stabilize the tear film. These drops provide soothing relief from dry eye syndrome, burning, fatigue, and irritation caused by environmental stressors, contact lens wear, or digital screen exposure.",
+    "ingredients": [
+      "Carboxymethylcellulose Sodium",
+      "Sodium Hyaluronate (0.1%)",
       "Polyethylene Glycol",
       "Propylene Glycol"
     ],
@@ -36,7 +87,75 @@
   {
     "id": "ANTIBIOTICS with steroids and NSAIDS",
     "category": "ANTIBIOTICS with steroids and NSAIDS",
-    "image": "assets/steroids_nsaids.png",
+    "image": "assets/steroids_nsaids_1.png",
+    "name": "Steroids and NSAIDS",
+    "subtitle": "Drops",
+    "title": "ANTIBIOTICS with steroids and NSAIDS",
+    "description": "This category encompasses therapeutic, prescription-grade ophthalmic formulations—including broad-spectrum antimicrobial agents, non-steroidal anti-inflammatory drugs (NSAIDs), and corticosteroids. These drops are used to treat or prevent bacterial ocular infections and manage postoperative pain, swelling, and tissue inflammation.",
+    "ingredients": [
+      "Moxifloxacin",
+      "Dexamethasone",
+      "Loteprednol Etabonate",
+      "Nepafenac / Ketorolac"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  },
+
+{
+    "id": "ANTIBIOTICS with steroids and NSAIDS",
+    "category": "ANTIBIOTICS with steroids and NSAIDS",
+    "image": "assets/steroids_nsaids_2.png",
+    "name": "Steroids and NSAIDS",
+    "subtitle": "Drops",
+    "title": "ANTIBIOTICS with steroids and NSAIDS",
+    "description": "This category encompasses therapeutic, prescription-grade ophthalmic formulations—including broad-spectrum antimicrobial agents, non-steroidal anti-inflammatory drugs (NSAIDs), and corticosteroids. These drops are used to treat or prevent bacterial ocular infections and manage postoperative pain, swelling, and tissue inflammation.",
+    "ingredients": [
+      "Moxifloxacin",
+      "Dexamethasone",
+      "Loteprednol Etabonate",
+      "Nepafenac / Ketorolac"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  },
+
+  {
+    "id": "ANTIBIOTICS with steroids and NSAIDS",
+    "category": "ANTIBIOTICS with steroids and NSAIDS",
+    "image": "assets/steroids_nsaids_3.png",
+    "name": "Steroids and NSAIDS",
+    "subtitle": "Drops",
+    "title": "ANTIBIOTICS with steroids and NSAIDS",
+    "description": "This category encompasses therapeutic, prescription-grade ophthalmic formulations—including broad-spectrum antimicrobial agents, non-steroidal anti-inflammatory drugs (NSAIDs), and corticosteroids. These drops are used to treat or prevent bacterial ocular infections and manage postoperative pain, swelling, and tissue inflammation.",
+    "ingredients": [
+      "Moxifloxacin",
+      "Dexamethasone",
+      "Loteprednol Etabonate",
+      "Nepafenac / Ketorolac"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  },
+
+  {
+    "id": "ANTIBIOTICS with steroids and NSAIDS",
+    "category": "ANTIBIOTICS with steroids and NSAIDS",
+    "image": "assets/steroids_nsaids_4.png",
+    "name": "Steroids and NSAIDS",
+    "subtitle": "Drops",
+    "title": "ANTIBIOTICS with steroids and NSAIDS",
+    "description": "This category encompasses therapeutic, prescription-grade ophthalmic formulations—including broad-spectrum antimicrobial agents, non-steroidal anti-inflammatory drugs (NSAIDs), and corticosteroids. These drops are used to treat or prevent bacterial ocular infections and manage postoperative pain, swelling, and tissue inflammation.",
+    "ingredients": [
+      "Moxifloxacin",
+      "Dexamethasone",
+      "Loteprednol Etabonate",
+      "Nepafenac / Ketorolac"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  },
+
+{
+    "id": "ANTIBIOTICS with steroids and NSAIDS",
+    "category": "ANTIBIOTICS with steroids and NSAIDS",
+    "image": "assets/steroids_nsaids_5.png",
     "name": "Steroids and NSAIDS",
     "subtitle": "Drops",
     "title": "ANTIBIOTICS with steroids and NSAIDS",
@@ -53,7 +172,58 @@
  {
     "id": "Antioxidants",
     "category": "Antioxidants",
-    "image": "assets/antioxidants.jpeg",
+    "image": "assets/antioxidants_1.jpg",
+    "name": "Antioxidants",
+    "subtitle": "Tablets",
+    "title": "Specialized formulation",
+    "description": "This category comprises oral nutraceutical supplements formulated with potent antioxidants, carotenoids, essential fatty acids, amino acid derivatives, and essential vitamins and minerals. These products are designed to support cellular health, neutralize free radicals, protect ocular (eye) health, boost immunity, and maintain general metabolic well-being.",
+    "ingredients": [
+      "Lutein",
+      "Zeaxanthin",
+      "Omega-3 Fatty Acids",
+      "Vitamin C"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  },
+
+   {
+    "id": "Antioxidants",
+    "category": "Antioxidants",
+    "image": "assets/antioxidants_2.jpg",
+    "name": "Antioxidants",
+    "subtitle": "Tablets",
+    "title": "Specialized formulation",
+    "description": "This category comprises oral nutraceutical supplements formulated with potent antioxidants, carotenoids, essential fatty acids, amino acid derivatives, and essential vitamins and minerals. These products are designed to support cellular health, neutralize free radicals, protect ocular (eye) health, boost immunity, and maintain general metabolic well-being.",
+    "ingredients": [
+      "Lutein",
+      "Zeaxanthin",
+      "Omega-3 Fatty Acids",
+      "Vitamin C"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  },
+
+   {
+    "id": "Antioxidants",
+    "category": "Antioxidants",
+    "image": "assets/antioxidants_3.jpg",
+    "name": "Antioxidants",
+    "subtitle": "Tablets",
+    "title": "Specialized formulation",
+    "description": "This category comprises oral nutraceutical supplements formulated with potent antioxidants, carotenoids, essential fatty acids, amino acid derivatives, and essential vitamins and minerals. These products are designed to support cellular health, neutralize free radicals, protect ocular (eye) health, boost immunity, and maintain general metabolic well-being.",
+    "ingredients": [
+      "Lutein",
+      "Zeaxanthin",
+      "Omega-3 Fatty Acids",
+      "Vitamin C"
+    ],
+    "note": "Refer to the product pack and qualified healthcare professionals."
+  },
+
+   {
+    "id": "Antioxidants",
+    "category": "Antioxidants",
+    "image": "assets/antioxidants_4.jpg",
     "name": "Antioxidants",
     "subtitle": "Tablets",
     "title": "Specialized formulation",
